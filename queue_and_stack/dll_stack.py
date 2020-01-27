@@ -1,7 +1,10 @@
 import sys
-sys.path.append('../doubly_linked_list')
-from doubly_linked_list import DoublyLinkedList
 
+from doubly_linked_list import *
+
+sys.path.append('../doubly_linked_list')
+
+# LIFO
 class Stack:
     def __init__(self):
         self.size = 0
