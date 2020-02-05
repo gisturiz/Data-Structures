@@ -1,7 +1,8 @@
-import unittest
+import io
 import random
 import sys
-import io
+import unittest
+
 from binary_search_tree import BinarySearchTree
 
 

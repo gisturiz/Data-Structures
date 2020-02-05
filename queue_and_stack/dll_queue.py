@@ -165,4 +165,8 @@ class Queue:
             return last
 
     def len(self):
+<<<<<<< HEAD
         return self.size
+=======
+        return self.size
+>>>>>>> 6a0b4eda25f5b59b669f57f786395278ef3a34e8

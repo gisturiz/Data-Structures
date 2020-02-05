@@ -62,10 +62,13 @@ class DoublyLinkedList:
             self.head.prev = new_node
             self.head = new_node
 
+<<<<<<< HEAD
 
     """Removes the List's current head node, making the
     current head's next node the new head of the List.
     Returns the value of the removed Node."""
+=======
+>>>>>>> 6a0b4eda25f5b59b669f57f786395278ef3a34e8
     def remove_from_head(self):
         value = self.head.value
         self.delete(self.head)
@@ -85,9 +88,12 @@ class DoublyLinkedList:
             self.tail.next = new_node
             self.tail = new_node
 
+<<<<<<< HEAD
     """Removes the List's current tail node, making the 
     current tail's previous node the new tail of the List.
     Returns the value of the removed Node."""
+=======
+>>>>>>> 6a0b4eda25f5b59b669f57f786395278ef3a34e8
     def remove_from_tail(self):
         value = self.tail.value
         self.delete(self.tail)
@@ -135,7 +141,11 @@ class DoublyLinkedList:
         # Otherwise
         else:
             node.delete()
+<<<<<<< HEAD
     """Returns the highest value currently in the list"""
+=======
+
+>>>>>>> 6a0b4eda25f5b59b669f57f786395278ef3a34e8
     def get_max(self):
         if not self.head:
             return None
@@ -146,4 +156,8 @@ class DoublyLinkedList:
                 if current.value > max_value:
                     max_value = current.value
                 current = current.next
+<<<<<<< HEAD
         return max_value
+=======
+        return max_value
+>>>>>>> 6a0b4eda25f5b59b669f57f786395278ef3a34e8
